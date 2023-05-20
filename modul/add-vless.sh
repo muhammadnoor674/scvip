@@ -16,7 +16,7 @@ CITY=$(curl -s ipinfo.io/city )
 COUNTRY=$(curl -s ipinfo.io/country )
 
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://myridwan.github.io/izin | grep $MYIP )
+IZIN=$( curl https://muhammadnoor674.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
@@ -63,8 +63,8 @@ sed -i '/#tls$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vless.json
 sed -i '/#none$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vnone.json
-vlesslink1="vless://${uuid}@${domain}:$tls?path=/RidwanVpn&security=tls&encryption=none&type=ws#${user}"
-vlesslink2="vless://${uuid}@${domain}:$none?path=/RidwanVpn&encryption=none&type=ws#${user}"
+vlesslink1="vless://${uuid}@${domain}:$tls?path=/NYARIGRATISAN&security=tls&encryption=none&type=ws#${user}"
+vlesslink2="vless://${uuid}@${domain}:$none?path=/NYARIGRATISAN&encryption=none&type=ws#${user}"
 systemctl restart v2ray@vless
 systemctl restart v2ray@vnone
 
@@ -76,7 +76,7 @@ cat > /etc/v2ray/vless-$user.json<<EOF
       "port": "${tls}",
       "id": "${uuid}",
       "net": "ws",
-      "path": "/RidwanVpn",
+      "path": "/NYARIGRATISAN",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -97,7 +97,7 @@ echo -e " Port NON-TLS   : $none"
 echo -e " ID             : ${uuid}"
 echo -e " Encryption     : none"
 echo -e " Network        : ws"
-echo -e " Path           : /RidwanVpn"
+echo -e " Path           : /NYARIGRATISAN"
 echo -e "${red}=================================${off}"
 echo -e "${blue}~> VLESS TLS${off}"
 echo -e ""
@@ -111,5 +111,5 @@ echo -e " Aktif Selama   : $masaaktif Hari"
 echo -e " Dibuat Pada    : $tnggl"
 echo -e " Berakhir Pada  : $expe"
 echo -e "${red}=================================${off}"
-echo -e " ${blue}- Mod By RIDWAN - STORE${off}"
+echo -e " ${blue}- Mod By NYARIGRATISAN - STORE${off}"
 echo -e ""
