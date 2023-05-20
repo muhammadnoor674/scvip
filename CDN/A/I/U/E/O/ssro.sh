@@ -122,7 +122,7 @@ if [[ ${OS} == "centos" ]]; then
 }
 Start_SSR(){
 	check_pid
-	wget -O /etc/init.d/ssrmu "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/ssrmu"
+	wget -O /etc/init.d/ssrmu "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/ssrmu"
 	/etc/init.d/ssrmu start
 }
 Install_SSR(){
@@ -140,6 +140,6 @@ Start_SSR
 Install_SSR
 touch /usr/local/shadowsocksr/akun.conf
 echo -e "Done Install ShadowSocksR" | lolcat
-figlet -f slant RIDWAN - STORE | lolcat
+figlet -f slant NYARIGRATISAN - STORE | lolcat
 sleep 1
 rm -f /root/ssr.sh
