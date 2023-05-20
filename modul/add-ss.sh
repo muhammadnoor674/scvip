@@ -16,7 +16,7 @@ CITY=$(curl -s ipinfo.io/city )
 COUNTRY=$(curl -s ipinfo.io/country )
 
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://myridwan.github.io/izin | grep $MYIP )
+IZIN=$( curl https://muhammadnoor674.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
@@ -107,7 +107,7 @@ clear
 echo ""
 echo -e "Success!"
 echo -e "=========================="
-echo -e "RIDWAN VPN Configuration"
+echo -e "NYARIGRATISAN VPN Configuration"
 echo -e "=========================="
 echo -e "IP/Host        : $IP"
 echo -e "Port OBFS TLS  : $tls"
@@ -121,4 +121,4 @@ echo -e "==========================="
 echo -e "Link OBFS HTTP : $linkss2"
 echo -e "==========================="
 echo -e "Terima Kasih Banyak"
-echo -e "Premium Script Mod by Ridwan"
+echo -e "Premium Script Mod by NYARIGRATISAN"
