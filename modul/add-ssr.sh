@@ -16,7 +16,7 @@ CITY=$(curl -s ipinfo.io/city )
 COUNTRY=$(curl -s ipinfo.io/country )
 
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://myridwan.github.io/izin | grep $MYIP )
+IZIN=$( curl https://muhammadnoor674.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
@@ -70,7 +70,7 @@ ssr_link="ssr://${tmp2}"
 IP=$(wget -qO- ifconfig.co);
 clear
 echo -e "================================="
-echo -e "Ridwan VPN | SSR Configuration"
+echo -e "NYARIGRATISAN VPN | SSR Configuration"
 echo -e "================================="
 echo -e "IP         : ${IP}"
 echo -e "Port       : ${ssr_port}"
@@ -83,4 +83,4 @@ echo -e "Expired On : ${exp} "
 echo -e "================================="
 echo -e "${ssr_link}"
 echo -e "================================="
-echo -e "Terima kasih ! by @RidwanStore"
+echo -e "Terima kasih ! by NYARIGRATISAN"
