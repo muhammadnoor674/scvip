@@ -16,7 +16,7 @@ date
 mkdir -p /etc/trojan/
 touch /etc/trojan/akun.conf
 # install v2ray
-wget https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
 mkdir /root/.acme.sh
@@ -58,7 +58,7 @@ cat> /etc/v2ray/config.json << END
           ]
         },
         "wsSettings": {
-          "path": "/RidwanVpn",
+          "path": "/NYARIGRATISAN",
           "headers": {
             "Host": ""
           }
@@ -146,7 +146,7 @@ cat> /etc/v2ray/none.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/RidwanVpn",
+          "path": "/NYARIGRATISAN",
           "headers": {
             "Host": ""
           }
@@ -243,7 +243,7 @@ cat> /etc/v2ray/vless.json << END
           ]
         },
         "wsSettings": {
-          "path": "/RidwanVpn",
+          "path": "/NYARIGRATISAN",
           "headers": {
             "Host": ""
           }
@@ -330,7 +330,7 @@ cat> /etc/v2ray/vnone.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/RidwanVpn",
+          "path": "/NYARIGRATISAN",
           "headers": {
             "Host": ""
           }
@@ -493,8 +493,8 @@ systemctl enable v2ray
 echo -e "Done Install V2ray Sevices" | lolcat
 figlet -f slant RIDWAN - STORE | lolcat
 sleep 1
-wget https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/rec.sh && chmod +x rec.sh && ./rec.sh
-wget https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/wild.sh && chmod +x wild.sh && ./wild.sh
+wget https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/rec.sh && chmod +x rec.sh && ./rec.sh
+wget https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/wild.sh && chmod +x wild.sh && ./wild.sh
 rm -f rec.sh
 rm -f wild.sh
 rm -f ins-vto.sh
