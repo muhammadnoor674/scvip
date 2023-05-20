@@ -23,11 +23,11 @@ touch /home/sstp/sstp_account
 touch /var/lib/premium-script/data-user-sstp
 #detail nama perusahaan
 country=ID
-state=Indonesia
-locality=Indonesia
-organization=www.nezavpn.com
-organizationalunit=www.nezavpn.com
-commonname=www.nezavpn.com
+state=Kalimantan
+locality=Banjarbaru
+organization=NYARIGRATISAN
+organizationalunit=BZOFFICIAL
+commonname=AnuyBazoelk639
 email=admin@nezavpn.com
 
 #install sstp
@@ -40,7 +40,7 @@ make
 cpack -G DEB
 dpkg -i accel-ppp.deb
 mv /etc/accel-ppp.conf.dist /etc/accel-ppp.conf
-wget -O /etc/accel-ppp.conf "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/accel.conf"
+wget -O /etc/accel-ppp.conf "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/accel.conf"
 sed -i $MYIP2 /etc/accel-ppp.conf
 chmod +x /etc/accel-ppp.conf
 systemctl start accel-ppp
@@ -63,7 +63,7 @@ netfilter-persistent save > /dev/null
 netfilter-persistent reload > /dev/null
 #input perintah sstp
 echo -e "Done Install SSTP" | lolcat
-figlet -f slant RIDWAN - STORE | lolcat
+figlet -f slant NYARIGRATISAN - STORE | lolcat
 sleep 1
 rm -f /root/sstpo.sh
 
