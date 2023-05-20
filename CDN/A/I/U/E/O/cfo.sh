@@ -41,11 +41,11 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
 
-#wget -O /usr/bin/dhn "https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/dhn.sh"
-#wget -O /usr/bin/dhn2 "https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/dhn2.sh"
-#wget -O /usr/bin/dhn3 "https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/dhn3.sh"
-#wget -O /usr/bin/nza "https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/nza.sh"
-#wget -O /usr/bin/wcc "https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/cs_wc.sh"
+#wget -O /usr/bin/dhn "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/dhn.sh"
+#wget -O /usr/bin/dhn2 "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/dhn2.sh"
+#wget -O /usr/bin/dhn3 "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/dhn3.sh"
+#wget -O /usr/bin/nza "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/nza.sh"
+#wget -O /usr/bin/wcc "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/cs_wc.sh"
 
 #chmod +x /usr/bin/dhn
 #chmod +x /usr/bin/dhn2
@@ -54,7 +54,7 @@ echo $SUB_DOMAIN > /root/domain
 #chmod +x /usr/bin/wcc
 
 echo -e "Done Record Domain For VPS" | lolcat
-figlet -f slant RIDWAN - STORE | lolcat
+figlet -f slant NYARIGRATISAN - STORE | lolcat
 sleep 1
 
 rm -f /root/cfo.sh
