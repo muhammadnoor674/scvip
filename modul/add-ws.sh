@@ -16,7 +16,7 @@ CITY=$(curl -s ipinfo.io/city )
 COUNTRY=$(curl -s ipinfo.io/country )
 
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://myridwan.github.io/izin | grep $MYIP )
+IZIN=$( curl https://muhammadnoor674.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
@@ -64,7 +64,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/RidwanVpn",
+      "path": "/NYARIGRATISAN",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -79,7 +79,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/RidwanVpn",
+      "path": "/NYARIGRATISAN",
       "type": "none",
       "host": "${domain}",
       "tls": "none"
@@ -103,7 +103,7 @@ echo -e "id             : ${uuid}"
 echo -e "alterId        : 2"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path           : /WorldSSH"
+echo -e "path           : /NYARIGRATISAN"
 echo -e "================================="
 echo -e "link TLS       : ${vmesslink1}"
 echo -e "================================="
@@ -111,4 +111,4 @@ echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e "Aktif Selama   : ${masaaktif} Hari"
 echo -e "Berakhir Pada  : ${exp}"
-echo -e "Mod By RIDWAN - STORE"
+echo -e "Mod By NYARIGRATISAN - STORE"
