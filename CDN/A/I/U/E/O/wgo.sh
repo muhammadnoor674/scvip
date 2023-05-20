@@ -22,7 +22,7 @@ if [[ -e /etc/wireguard/params ]]; then
 	exit 1
 fi
 
-echo -e "${Info} Wireguard VPS AutoScript by M RIDWAN - STORE"
+echo -e "${Info} Wireguard VPS AutoScript by NYARIGRATISAN - STORE"
 # Detect public IPv4 address and pre-fill for the user
 
 # Detect public interface and pre-fill for the user
@@ -86,6 +86,6 @@ systemctl enable "wg-quick@wg0"
 systemctl is-active --quiet "wg-quick@wg0"
 WG_RUNNING=$?
 echo -e "Done Install Wireguard" | lolcat
-figlet -f slant RIDWAN - STORE | lolcat
+figlet -f slant NYARIGRATISAN - STORE | lolcat
 sleep 1
 rm -f /root/wgo.sh
