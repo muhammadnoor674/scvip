@@ -11,7 +11,7 @@ clear
 echo ""
 echo "Start Update.."
 sleep 1
-wget https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc.sh && chmod +x sc.sh && ./sc.sh
+wget https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc.sh && chmod +x sc.sh && ./sc.sh
 sleep 5
 cd
 rm -f sc.sh
