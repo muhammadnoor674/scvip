@@ -1,7 +1,7 @@
 #!/bin/bash
 # SSH Over Websocket OpenSSH Method
 
-wget -q -O /usr/local/bin/ws-vpn "https://raw.githubusercontent.com/myridwan/scvip/ipuk/hihi.py"
+wget -q -O /usr/local/bin/ws-vpn "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/hihi.py"
 chmod +x /usr/local/bin/edu-vpn
 
 cat > /etc/systemd/system/ws-vpn.service << END
