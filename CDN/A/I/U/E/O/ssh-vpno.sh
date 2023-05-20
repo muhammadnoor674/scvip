@@ -12,15 +12,15 @@ ver=$VERSION_ID
 
 #detail nama perusahaan
 country=ID
-state=Indonesia
-locality=Indonesia
-organization=ridwan.tech
-organizationalunit=ridwan.tech
-commonname=ridwan.tech
+state=Kalimantan
+locality=Banjarbaru
+organization=NYARIGRATISAN
+organizationalunit=BZOFFICIAL
+commonname=AnuyBazoelk639
 email=admin@worldssh.tech
 
 # simple password minimal
-wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/password"
+wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/password"
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -86,11 +86,11 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 # install
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
-echo "figlet -f slant RIDWAN - STORE | lolcat" >> .profile
+echo "figlet -f slant NYARIGRATISAN - STORE | lolcat" >> .profile
 echo "sleep 1" >> .profile
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo -e \" - Mod By RidwanVpn X Store\" | lolcat" >> .profile
+echo "echo -e \" - Mod By NYARIGRATISAN Store\" | lolcat" >> .profile
 echo "echo -e \"\x1b[96m - Silahkan Ketik\x1b[m \x1b[92mmenu\x1b[m \x1b[96mUntuk Melihat daftar Perintah\x1b[m\"" >> .profile
 
 # install webserver
@@ -98,15 +98,15 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/nginx.conf"
 mkdir -p /home/vps/public_html
-echo "<br><b><center><a href=\"https://wa.me/6285781385825\">RIDWAN</a> - <a href=\"https://wa.me/6285781385825\">RIDWAN</a> DRG PROJECT</center></b></br>" >> /home/vps/public_html/index.html
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/vps.conf"
+echo "<br><b><center><a href=\"https://wa.me/6285349326511\">AnuyBazoelk639</a> - <a href=\"https://wa.me/6285349326511\">AnuyBazoelk639</a>NYARIGRATISAN</center></b></br>" >> /home/vps/public_html/index.html
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/vps.conf"
 /etc/init.d/nginx restart
 
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/badvpn-udpgw64"
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/badvpn-udpgw64"
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
@@ -136,7 +136,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 # install squid
 cd
 apt -y install squid3
-wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/squid3.conf"
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/squid3.conf"
 sed -i $MYIP2 /etc/squid/squid.conf
 
 # setting vnstat
@@ -190,7 +190,7 @@ END
 #SSLH
 apt-get install sslh -y
 #Forward 443 = ws
-wget -O /etc/default/sslh "https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/sslh.conf"
+wget -O /etc/default/sslh "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/sslh.conf"
 service sslh restart
 
 # certificate
@@ -204,7 +204,7 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 /etc/init.d/stunnel4 restart
 
 #OpenVPN
-wget https://raw.githubusercontent.com/myridwan/scvip/ipuk/CDN/A/I/U/E/O/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
+wget https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/CDN/A/I/U/E/O/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
 
 # install fail2ban
 apt -y install fail2ban
@@ -237,7 +237,7 @@ echo 'Config file is at /usr/local/ddos/ddos.conf'
 echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 
 # banner /etc/issue.net
-wget -O /etc/issue.net "https://raw.githubusercontent.com/myridwan/scvip/ipuk/sc/bannerssh.conf"
+wget -O /etc/issue.net "https://raw.githubusercontent.com/muhammadnoor674/scvip/ipuk/sc/bannerssh.conf"
 echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 
@@ -311,7 +311,7 @@ chmod +x /usr/local/bin/reboot_otomatis
 echo "0 0 * * * root /usr/local/bin/reboot_otomatis" > /etc/cron.d/reboot_otomatis
 
 echo -e "Done Install SSH Services" | lolcat
-figlet -f slant RIDWAN - STORE | lolcat
+figlet -f slant NYARIGRATISAN - STORE | lolcat
 sleep 1
 # finihsing
 clear
