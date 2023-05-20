@@ -16,7 +16,7 @@ CITY=$(curl -s ipinfo.io/city )
 COUNTRY=$(curl -s ipinfo.io/country )
 
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://myridwan.github.io/izin | grep $MYIP )
+IZIN=$( curl https://muhammadnoor.github.io/izin | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
@@ -76,4 +76,4 @@ echo -e "bimbel.ruangguru.com:2082@$Login:$Pass"
 echo -e "==============================="
 echo -e "Aktif Selama   : $masaaktif Hari"
 echo -e "Berakhir Pada  : $exp"
-echo -e "Mod By RIDWAN - STORE"
+echo -e "Mod By NYARIGRATISAN - STORE"
