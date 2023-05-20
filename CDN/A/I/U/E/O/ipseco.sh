@@ -279,6 +279,6 @@ service xl2tpd restart 2>/dev/null
 touch /var/lib/premium-script/data-user-l2tp
 touch /var/lib/premium-script/data-user-pptp
 echo -e "Done Install IPSec Services" | lolcat
-figlet -f slant RIDWAN - STORE | lolcat
+figlet -f slant NYARIGRATISAN - STORE | lolcat
 sleep 1
 rm -f /root/ipseco.sh
