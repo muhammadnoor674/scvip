@@ -2,7 +2,7 @@
 
 clear
 echo -e "=================================================" | lolcat
-echo -e "#     AutoScript VPS By M RIDWAN - STORE      #"
+echo -e "#     AutoScript VPS By NYARIGRATISAN - STORE      #"
 echo -e "#-----------------------------------------------#"
 echo -e "#             OPERATING SYSTEM                  #"
 echo -e "             -------------------                 "
@@ -20,5 +20,5 @@ echo -e "# Makhluk Bumi                                  #"
 echo -e "# Icipers Nusantara                             #"
 echo -e "# All Admin Dan All Member                      #"
 echo -e "#-----------------------------------------------#"
-echo -e "- Mod By M RIDWAN - STORE"
+echo -e "- Mod By NYARIGRATISAN - STORE"
 echo -e "=================================================" | lolcat
