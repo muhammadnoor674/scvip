@@ -9,5 +9,5 @@ chmod +x wgo.sh
 ./wgo.sh
 rm -f wgo.sh
 
-echo -e "Powered By Ridwan"
+echo -e "Powered By NYARIGRATISAN"
 rm -f wg.sh
