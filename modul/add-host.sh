@@ -70,7 +70,7 @@ cat <<EOF > /etc/trojan-go/config.json
   },
   "websocket": {
     "enabled": true,
-    "path": "/RidwanVpn",
+    "path": "/NYARIGRATISAN",
     "host": "$host"
   },
   "shadowsocks": {
@@ -157,7 +157,7 @@ END
  systemctl daemon-reload
  systemctl restart nginx
 echo "Berhasil Menambahkan Domain VPS" | lolcat
-figlet -f slant RIDWAN - STORE | lolcat
+figlet -f slant NYARIGRATISAN - STORE | lolcat
 
 read -p "Perbarui Sertifikat V2ray? (Y/N) : " up
 if [[ $up == "Y" || $up == "y" ]]; then
